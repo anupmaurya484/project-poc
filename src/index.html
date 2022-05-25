@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Fine Dine</title>
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Fine Dine" />
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded" />
+
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/fonts/style.css">
+
+  <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="assets/js/jquery.scrolly.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./assets/images/mob-2.png" type="./assets/images/png" sizes="30x30">
+  <script>
+    $(document).ready(function () {
+      $('.parallax').scrolly({ bgParallax: true });
+
+      (function () {
+
+        var quotes = $(".swap-text");
+        var quoteIndex = -1;
+
+        function showNextQuote() {
+          ++quoteIndex;
+          quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(2000)
+            .delay(2000)
+            .fadeOut(2000, showNextQuote);
+        }
+
+        showNextQuote();
+
+      })();
+    });
+  </script>
+</head>
+
+<body>
+  <app-root></app-root>
+</body>
+
+<script>
+  AOS.init({
+    easing: 'ease-in-out-sine'
+  });
+</script>
+
+</html>

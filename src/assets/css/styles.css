@@ -1,0 +1,59 @@
+section.paralax {
+    min-height: 768px;
+    position: relative;
+    width: 100% !important;
+    min-width: 1000px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+/*.sections .container>div:nth-of-type(1) {
+    background: url(../images/mob1.png) 50% 0 no-repeat fixed;
+    margin: 0;
+    height: 768px;
+    position:absolute;
+    width:100%;
+    top:0;left:0;
+}*/
+
+.sections .container .mob1, .sections .container .mob2, .sections .container .mob3 {
+    /*background: url(../images/mob1.png) 150% 0 no-repeat fixed / auto;*/
+	background: url(../images/mob1.png) 150% 0 no-repeat;
+	background-attachment:fixed;
+	background-size: 100% !important;
+    margin: 0;
+    height: 768px;
+    position:absolute;
+    top:0px;
+	right: 0;
+    width:50%;
+}
+.sections .container .mob2 { 
+    /*background: url(../images/mob2.png) 0% 0 no-repeat fixed / auto;*/
+    background: url(../images/mob2.png) 0% 0 no-repeat;
+	background-attachment:fixed;
+	background-size: 100% !important;
+	right:0;
+	left:0;
+	width:100%;
+}
+	
+.sections .container .mob3 { 
+    background: url(../images/mob3.png) 150% 0 no-repeat;
+	background-attachment:fixed;
+	background-size: 100% !important;
+}
+	
+	
+#bottle>div:nth-of-type(1){
+    background: url(../images/bottle.jpeg) 50% 0 no-repeat;
+	background-attachment:fixed;
+    margin: 0;
+    height: 768px;
+    position:absolute;
+    top:0;left:0;
+    width:100%;   
+}
+.parallax-item{position:absolute;z-index:5;top:40px;left:400px;}

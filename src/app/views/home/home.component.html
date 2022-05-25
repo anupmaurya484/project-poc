@@ -1,0 +1,175 @@
+<div id="wrapper">
+	<header>
+	  <div class="container-fluid">
+			<div class="logo-left">
+				<img src="assets/images/logo.png">
+			</div>
+			<div class="right-col">
+				<a href="#" class="link-btn"> Contact Us </a>
+			</div>
+		</div>
+	</header>
+	
+	
+	<section class="top-banner">
+	  <div class="content-mid"> <h2> <span class="inline"> Connecting You With Good Looking </span> <span class="blank">  <span class="swap-text"> Bartenders </span> <span class="swap-text"> Servers </span> <span class="swap-text"> Food </span></span> </h2></div>
+	</section>
+	
+	
+	<section class="middle-content">
+		<section class="sections sec1">
+		  <div class="container">
+			  <div class="img-mob"> <img src="assets/images/mob-1.png" alt=""> </div>
+					<div class="left-col content-sec" data-aos="fade-right">
+						<h4>Download on iOS today! </h4>
+						<a href="https://itunes.apple.com/in/app/fine-dine-app/id1438027707?mt=8" class="download-btn" target="_my_blank"> Download Now </a>
+					</div>
+					<div class="right-col">
+				  <div class="parallax mob1" data-velocity="-1.2" data-fit="825"></div>
+					</div>
+	
+			</div>
+		</section>
+	
+	
+		<section class="sections sec2">
+		  <div class="container">
+			  <div class="img-mob"> <img src="assets/images/mob-2.png" alt=""> </div>
+				<div class="left-col">
+					<figure>
+				  <div class="parallax mob2" data-velocity="-1.2" data-fit="925"></div>
+					</figure>
+				</div>
+				<div class="right-col content-sec" data-aos="fade-left">
+					<h4>Fine the hottest bartenders and servers in your area!</h4>
+				</div>
+			</div>
+		</section>
+	
+		<section class="sections sec3">
+		  <div class="container">
+			  <div class="img-mob"> <img src="assets/images/mob-3.png" alt=""> </div>
+				<div class="left-col content-sec" data-aos="fade-right">
+					<h4>Find amazing food nearby! </h4>
+				</div>
+				<div class="right-col">
+					<figure>
+				  <div class="parallax mob3" data-velocity="-1.2" data-fit="825"></div>
+					</figure>
+				</div>
+			</div>
+		</section>
+	
+		<section class="how-it-works">
+		  <div class="container-fluid full">
+			  <div class="half left-content">
+				  <h4 class="h4 sm">
+					  How It <br/> Works
+	
+						<span class="red-brdr"> </span>
+					</h4>
+					<p class="para">Fine Dine allows you to swipe through your local area to view the best-looking bartenders, servers, and dishes near you! Tap “All” to see all of the service industry professionals in your area or tap “Active” to see who is working right now! Click the address to get directions and click the star to be notified every time your favorite bartender or server is on! Thanks for using Fine Dine!</p>
+				</div>
+	
+				<div class="half right-content" data-aos="fade-in">
+				  <img src="assets/images/side-banner1.jpg" alt="" />
+				</div>
+		</div>
+		</section>
+	
+		<section class="sections client-section">
+		  <div class="container-fluid">
+			  <h2> Fine Dine Bartenders & Servers can be found at places like </h2>
+	
+	
+				<div class="brand-logo">
+					<figure class="fig" data-aos="fade-up">
+						<img src="assets/images/brand-icon5.png">
+					</figure>
+					<figure class="fig" data-aos="fade-up">
+				  <img src="assets/images/brand-icon4.png">
+					</figure>
+					<figure class="fig" data-aos="fade-up">
+				  <img src="assets/images/brand-icon2.png">
+					</figure>
+					<figure class="fig" data-aos="fade-up">
+				  <img src="assets/images/brand-icon3.png">
+					</figure>
+					<figure class="fig" data-aos="fade-up">
+				  <img src="assets/images/brand-icon1.png">
+					</figure>
+				</div>
+			</div>
+		</section>
+	
+	
+		<footer class="footer">
+		  <div class="container" data-aos="zoom-in">
+				<div class="half">
+				  <h4 class="h4">Contact Us </h4>
+	
+	
+					<a class="email-link" href="mailto:yo@finedineapp.com"> yo@finedineapp.com </a>
+					<!-- <a href="#_" class="phn"> 248-789-8022</a> -->
+				
+					
+					<div class="address">
+					  <span class="head"> Miami, FL </span>
+					</div>
+	
+					<div class="socials">
+					  <ul class="">
+						  <li> 	<a href="https://instagram.com/finedineapp?utm_source=ig_profile_share&igshid=wlkr6r6kzybi" target="_my_blank" class="insta"> Follow us on Instagram </a> </li>
+						  <li> <a href="#_" class="fb"> </a> </li>
+						  <li> <a href="#_" class="yt"> </a> </li>
+						</ul>
+					</div>
+				</div>
+				<form  [formGroup]="contactusInForm" (ngSubmit)="submit($event,contactusInForm)">
+
+					<div class="half form-sec">
+						<div class="form-group">
+							<label class="label"> Name </label>
+								<input type="text" class="text" formControlName="name"  placeholder="Your name here" />
+						  </div>
+		  
+						<div class="form-group">
+							<label class="label"> Email </label>
+							  <input type="text" class="text" placeholder="Your@email.com" formControlName="email"/>
+						  </div>
+		  
+						<div class="form-group">
+							<label class="label"> Phone Number </label>
+							  <input type="text" class="text" placeholder="Your Phone Number" formControlName="number"/>
+						  </div>
+		  
+						<div class="form-group">
+							<label class="label"> Purpose </label>
+							  <select class="select text" formControlName="Purpose">
+								<option style="background-color:#f42c4d;" [value]="'General'" > General </option>
+								<option style="background-color:#f42c4d;" [value]="'Purchase Ad Space'"> Purchase Ad Space </option>
+							  </select>
+						  </div>
+		  
+						<div class="form-group full">
+							<label class="label"> Message </label>
+							  <textarea class="textarea" placeholder="Write message here" formControlName="message"></textarea>
+						  </div>
+		  
+							
+						<div class="form-group full mr0">
+								<button type="submit" class="btn send"> Send </button>
+								<p>
+									<br>
+									<span *ngIf="isValid">{{message}}</span>
+								</p>
+								
+						  </div>
+					  </div>
+				</form>
+				
+			</div>
+		
+		</footer>
+	</section>
+	</div>

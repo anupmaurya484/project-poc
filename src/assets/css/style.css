@@ -1,0 +1,157 @@
+body { font-family: 'Avenir LT Std 65 Medium';}
+.top-banner { background-image:url(../images/banner1.jpg); background-repeat: no-repeat; background-position:center center; background-size:100% auto; background-attachment:fixed; height:100vh; width: 100%;}
+header { position:absolute; top: 0; left:0; right:0; width:100%; padding: 25px 0; z-index:1;}
+.container-fluid { width: 100%; padding: 0 4%; float:left; width:100%;}
+.right-col { float:right;}
+.link-btn { padding: 10px 30px 11px; border:1px solid #fff; background: rgba(255,255,255,0.2); color:#fff; text-decoration:none; text-transform: uppercase; font-family: 'Avenir LT Std 35 Light'; display:inline-block; font-size: 14px; float: right;}
+.logo-left { float: left;}
+.content-mid { position: fixed; top: 50%; left: 0; right: 0; margin: 0 auto; max-width: 920px; text-align: center; font-weight: bold; width: 100%; color: #fff; font-size: 60px; transform: translate(0 , -50%); text-transform: uppercase; font-family: 'Avenir LT Std 85 Heavy';}
+.left-col { float:left; width: 50%;}
+.right-col { float:right; width: 50%;}
+.download-btn { border:1px solid #f42c4d; color:#f42c4d; font-size: 14px; text-transform:uppercase; text-decoration: none; display: inline-block; margin: 40px auto 0; padding: 10px 20px;}
+
+section.sections { float: left; width: 100%; text-align:center; padding: 40px 0;}
+.container { display:inline-block; max-width: 1000px; width: 90%; margin:0 auto;}
+.left-aligned { text-align:left;}
+.content-sec { text-align: left; padding: 30vh 0 50vh 0;}
+.content-sec h4, .h4.sm { font-size: 32px; font-family: 'Avenir LT Std 95 Black'; font-weight: bold; margin: 0 auto 15px;}
+.content-sec p, .para {  font-family: 'Avenir LT Std 35 Light'; font-size:16px; color:#7d7d7d; line-height: 1.4;}
+.para { line-height: 2;}
+.half { width: 50%; float:left;}
+.container-fluid.full { padding:0; width: 100%;}
+.half.left-content { padding: 25vh 60px 0 5%;}
+.client-section { background:#000;}
+.client-section h2, .footer .h4 { font-size: 36px; color: #fff; margin:0 auto 40px;}
+section.client-section { padding: 90px 0;}
+.brand-logo { margin: 80px auto 0; display:flex;}
+.brand-logo figure { flex:1;}
+.brand-logo img { width: auto;}
+.how-it-works img { float:right;}
+.how-it-works .h4.sm { text-align:center; font-size: 36px; text-indent: 10px;}
+span.red-brdr { background: #f82e48; width: 37px; height: 7px; clear: both; float: none; display: block; margin: 40px auto;}
+section.how-it-works { float: left; width: 100%; background: #f8f8f8;}
+.left-content .para { line-height: 2; font-size: 18px;}
+footer.footer { float: left; width: 100%; min-height: 100vh; padding: 24vh 0 100px; text-align:center; background: #f42c4d; color: #fff;}
+.footer .container { text-align:left;}
+footer.footer a { display: inline-block; width: 100%; color: #fff; text-decoration: none; margin: 0 auto 50px;}
+span.head { font-size: 18px; color: #dcdcdc;}
+.address p { line-height: 23px; margin: 20px auto 0;}
+.footer .h4 { margin:0 auto 50px;}
+.form-sec .form-group { width:50%; float:left; margin: 0 auto 30px; padding: 0 10px 0 0;}
+.label { width: 100%; float: left; font-size:14px;}
+.form-group.full { width:100%;}
+.form-sec .form-group .label { margin: 0 auto 15px;}
+.text { background:none; border:0; color:#fff; outline:0; box-shadow:none; padding: 10px 0; border-bottom: 1px solid #fff; width: 100%; font-size: 15px;}
+::placeholder { color:rgba(255,255,255,0.7);}
+:placeholder { color:rgba(255,255,255,0.7);}
+::-webkit-input-placeholder  { color:rgba(255,255,255,0.7);}
+::-moz-placeholder { color:rgba(255,255,255,0.7);}
+:-ms-input-placeholder { color:rgba(255,255,255,0.7);}
+:-moz-placeholder { color:rgba(255,255,255,0.7);}
+.textarea { height: 130px; width: 100%; border: 1px solid #fff; background: none; padding: 12px 15px; font-size: 15px; box-shadow: none; outline:0;}
+.btn { padding: 10px 50px 11px; border: 1px solid #fff; background: rgba(255,255,255,0.2); color: #fff; text-decoration: none; text-transform: uppercase; font-family: 'Avenir LT Std 35 Light'; display: inline-block; font-size: 14px;}
+.form-group.mr0 { margin:0;}
+section { position: relative;}
+.sections .container { clear:both; min-height:100vh;}
+.img-mob { display:none;}
+
+#swap-text { opacity:1;}
+.swap-text {display: none; position:absolute; left:0;}
+.blank { display:inline-block; width: 400px; height: 50px; position:relative; top: -6px;}
+.inline { display:inline;}
+
+@media screen and (min-width: 1400px){
+	.sections .container .mob1, .sections .container .mob2, .sections .container .mob3 { height: 100%;}
+	.sections .container { min-height:0; height:auto;}
+	.content-sec { padding: 220px 0 300px;}
+	.sections .container .mob1 { background: url(../images/mob1_mac.png) 0% 0 no-repeat fixed / auto;}
+	.sections .container .mob2 { background: url(../images/mob2_mac.png) 0% 0 no-repeat fixed / auto;}
+	.sections .container .mob3 { background: url(../images/mob3_mac.png) 0% 0 no-repeat fixed / auto;}
+	
+.content-sec { text-align: left; padding: 25vh 0 50vh 0;}
+}
+
+@media screen and (max-width: 1279px) and (min-width: 990px){
+	.content-sec { text-align: left; padding: 15vh 0 25vh 0;}
+	.sections .container .mob1, .sections .container .mob2, .sections .container .mob3 { height:640px; background-size: 100% auto !important;}
+	.sections .container { min-height:0;}
+	.half.left-content { padding: 11vh 60px 0 5%;}
+}
+
+@media screen and (max-width: 980px) and (min-width: 768px){
+	.link-btn { padding: 10px 20px 11px;}
+	.content-mid { font-size: 30px; line-height: 40px; padding: 0 40px;}
+	.content-mid { font-size: 40px; text-shadow: 1px 1px 1px rgba(0,0,0,0.7);}
+	#wrapper { overflow-x: hidden;}
+	.sections .container .mob1, .sections .container .mob2, .sections .container .mob3 { height:auto; display:none;}
+	.content-sec { width: 100%; background: rgba(255,255,255,0.8); left:0; right:0; margin:0 auto; padding: 50px 20px; height: auto; text-align:center;}
+	.sections .container { max-width:100%; width:100%; height: auto; float:left;}
+	section.sections.sec1, section.sections.sec2, section.sections.sec3 { float:left; padding:0; background: #fff;}
+	.img-mob { display:block; max-width: 80%; margin:20px auto;}
+	.content-sec h4, .h4.sm { font-size: 22px;}
+	.how-it-works .h4.sm { font-size: 28px;}
+	.brand-logo { display:inline-block; margin: 50px auto 0;}
+	section.client-section { padding: 60px 0;}
+	.brand-logo .fig { float:left; max-width:none; padding: 20px 0;}
+	.brand-logo img { max-width:80%; max-height: 70px;}
+	.client-section h2, .footer .h4 { margin: 0 auto 10px;}
+	.half { width: 100%; float: left;}
+	footer.footer { padding: 40px 0 40px;}
+	footer.footer a { margin: 0 auto 20px;}
+	.form-sec .form-group { width:100%; padding:0;}
+	.label { font-size: 16px;}
+	header { padding: 20px 0;}
+	.blank { top: 3px; height: 35px; display: inline-block; width: 100%; text-align:center;}
+	.swap-text { position:relative; float:left; width:100%;}
+	.top-banner:before { content: ""; position: absolute; top: 0; bottom: 0; height: 100%; background: rgba(0,0,0,0.4); width: 100%;}
+	.half.left-content { padding: 55px 5% 55px 5%; width: 100%;}
+	.how-it-works img { width:100%;}
+}
+
+
+@media screen and (max-width: 767px){
+	.content-mid { font-size: 40px; text-shadow: 1px 1px 1px rgba(0,0,0,0.7);}
+	#wrapper { overflow-x: hidden;}
+	.sections .container .mob1, .sections .container .mob2, .sections .container .mob3 { height:auto; display:none;}
+	.content-sec { text-align: left; padding: 15vh 0 0 0;}
+	section.sections { background-attachment:fixed;}
+	section.sections.sec1 { background: url(../images/mob-1.png) no-repeat fixed 100% 0 / auto 100%;}
+	section.sections.sec2 { background: url(../images/mob-2.png) no-repeat fixed 0% 0 / auto 100%;}
+	section.sections.sec3 { background: url(../images/mob-3.png) no-repeat fixed 100% 0 / auto 100%;}
+	.half.left-content { padding: 35px 5% 35px 5%; width: 100%;}
+	span.red-brdr { margin: 20px auto;}
+	.how-it-works .right-content { width:100%; max-height: 100vh; height:100vh; background: url(../images/side-banner1.jpg) no-repeat center center / cover;}
+	.how-it-works .right-content img { display:none;}
+	section.client-section { padding: 60px 0;}
+	.brand-logo img { width: auto; max-width: 90px; max-height: 40px;}
+	.brand-logo { margin: 60px auto 0;}
+	footer.footer { padding: 15vh 0 30px;}
+	.blank { height: 37px; top: 0;}
+	.top-banner { background-attachment:scroll; background-position: center center; background-size: 100% auto;}
+}
+
+
+@media screen and (max-width: 568px){
+	.link-btn { padding: 10px 20px 11px;}
+	.content-mid { font-size: 30px; line-height: 40px; padding: 0 40px;}
+	.content-sec { width: 100%; background: rgba(255,255,255,0.8); left:0; right:0; margin:0 auto; padding: 50px 20px; height: auto; text-align:center;}
+	.sections .container { max-width:100%; width:100%; height: auto; float:left;}
+	section.sections.sec1, section.sections.sec2, section.sections.sec3 { float:left; padding:0; background: #fff;}
+	.img-mob { display:block; max-width: 80%; margin:20px auto;}
+	.content-sec h4, .h4.sm { font-size: 22px;}
+	.how-it-works .h4.sm { font-size: 28px;}
+	.brand-logo { display:inline-block;}
+	.brand-logo .fig { width:100%; float:left; max-width:none; padding: 20px 0;}
+	.brand-logo img { max-width:80%; max-height: 70px;}
+	.client-section h2, .footer .h4 { margin: 0 auto 10px;}
+	.half { width: 100%; float: left;}
+	footer.footer { padding: 40px 0 40px;}
+	footer.footer a { margin: 0 auto 20px;}
+	.form-sec .form-group { width:100%; padding:0;}
+	.label { font-size: 16px;}
+	header { padding: 20px 0;}
+	.blank { top: 3px; height: 35px; display: inline-block; width: 100%; text-align:center;}
+	.swap-text { position:relative; float:left; width:100%;}
+	.top-banner:before { content: ""; position: absolute; top: 0; bottom: 0; height: 100%; background: rgba(0,0,0,0.4); width: 100%;}
+	.top-banner { background-attachment:scroll; background-position: center center; background-size: auto 100%;}
+}
